@@ -44,7 +44,7 @@ export default function App() {
       <div className="container flex flex-col gap-3 h-[100vh] w-full justify-center items-center">
         <h1 className="font-bold text-5xl">To Do List</h1>
 
-        <div className="w-[40%] bg-gray-800 flex flex-col gap-5 justify-center items-center p-5 rounded-2xl">
+        <div className="w-[100%] md:w-[40%] bg-gray-800 flex flex-col gap-5 justify-center items-center p-5 rounded-2xl">
           <h2 className="text-3xl text-white">Task Form</h2>
           <input
             type="text"
